@@ -1,0 +1,59 @@
+.navbar {
+  background: lightcoral;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li {
+ margin-right: 10px;
+ padding: 10px;
+}
+
+.navbar ul li:hover {
+background: grey;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.table td:hover {
+  background: gray;
+}
+/* even - odd */
+.table tr:nth-child(odd) {
+  background: green;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(4) {
+  background: red;
+}

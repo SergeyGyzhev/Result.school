@@ -1,0 +1,39 @@
+.color-1 {
+  color: crimson;
+}
+
+.color-2 {
+  color: rgba(174, 10, 250, 0.486);
+}
+/* RGB - Red Green Blue 00 - ff */
+.color-3 {
+  color: #ff69b4;
+}
+
+.color-4 {
+  color: #00ff00;
+}
+
+.color-5 {
+  color: #ddd;
+}
+
+.card {
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+.html{
+    background: #e55f28;
+}
+
+.html p{
+    color: #f1f1f1;
+}
+
+.css{
+    background:#3F51B5;
+}
+
+.css p{
+    color: #00ff00;
+}

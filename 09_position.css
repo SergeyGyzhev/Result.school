@@ -1,0 +1,21 @@
+.playground{
+    position: relative;
+    border: 4px solid black;
+    height: 100px;
+    padding: 20px;
+}
+
+.pos-box{
+    /* position: static; default status  */
+    /* position: absolute; */
+    /* left top right bottom */
+    /* position: fixed; */
+    position: absolute;
+    bottom:0;
+    left: 140px;
+    top:40px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: coral;
+}
